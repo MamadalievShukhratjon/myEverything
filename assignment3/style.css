@@ -1,0 +1,53 @@
+* {
+    margin: 0 ;
+}
+
+.navbar {
+    width: 100vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color:springgreen;
+}
+
+.home {
+    color: yellow;
+    transition: all 1s linear;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+.home:hover {
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+
+
+
+.about {
+    color: yellow;
+    transition: all 1s linear;
+    font-size: 30px;
+}
+
+.about:hover {
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+
+.contacts {
+    color: yellow;
+    transition: all 1s linear;
+    font-size: 30px;
+}
+
+.contacts:hover {
+    color: white;
+    border-bottom: 2px solid white;
+
+}

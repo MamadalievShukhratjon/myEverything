@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width:376px) {
+    .header {
+        display: none;
+    }
+
+    .mmain__upper {
+        /* flex-wrap: wrap; */
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .main__username {
+        width: 124px;
+        height: 106px;
+        font-size: 47px;
+    }
+
+    .main__paragraph1 {
+        width: 155.646px;
+        height: 44.065px;
+        font-size: 18px
+    }
+
+    .main__paragraph2 {
+        display: none;
+    }
+
+    .main__img {
+        width: 316.496px;
+        height: 478px;
+        
+    }
+
+}
