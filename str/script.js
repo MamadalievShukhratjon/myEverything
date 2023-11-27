@@ -33,6 +33,15 @@ console.log( web1.repeat(10))
 
 var name1 = '#fozil#web#brain#'
 
-var name2 = name1.replace('#', "(") 
 
-console.log(name2)
+var part1 = name1.slice(0,6)
+var ism1 = part1.replace("#","(")
+var part2 = name1.slice(6,10)
+var ism2 = part2.replace("#", ")")
+var part3 = name1.slice(10,17)
+var ism3 = part3.replace("#","(")
+var part4 = name1.slice(16,17)
+var ism4 = part4.replace("#", ")")
+
+var total = (ism1+ism2+ism3+ism4)
+console.log(total)
