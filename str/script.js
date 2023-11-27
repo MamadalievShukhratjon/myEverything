@@ -22,9 +22,14 @@ if ((year % 4 == 0) && (year % 100 == 0) || (year % 400 ==0))
 console.log("Leap year")
 else console.log("Not a leap year")
 
+
+//  replace method
 var text = "Webbrain "
 
-console.log(text.replace("Web" , "IT"))
+var web1 = text.replace("Web" , "IT")
+
+console.log( web1.repeat(10))
+
 
 
 
