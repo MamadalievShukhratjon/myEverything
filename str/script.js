@@ -31,6 +31,8 @@ var web1 = text.replace("Web" , "IT")
 console.log( web1.repeat(10))
 
 
+var name1 = '#fozil#web#brain#'
 
+var name2 = name1.replace('#', "(") 
 
-// console.log(text.repeat(10))
+console.log(name2)
