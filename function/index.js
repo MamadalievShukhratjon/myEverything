@@ -20,3 +20,9 @@ for (i = 0; i < str.length; i++) {
     }
 }
 console.log(natija.length)
+
+
+let name1 = "school"
+ for (i = name1.length-1; i >= 0 ; i--){
+    console.log(name1[i])
+ }
