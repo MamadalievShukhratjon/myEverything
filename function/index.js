@@ -9,3 +9,14 @@ for (let i = 0; i <= 10; i++ ) {
 
     console.log(i)
 }
+
+
+let str = "Webbrainacademy"
+let natija = ''
+
+for (i = 0; i < str.length; i++) {
+    if (str[i] === "A" || str[i] === "a") {
+        natija = natija + str[i]
+    }
+}
+console.log(natija.length)
